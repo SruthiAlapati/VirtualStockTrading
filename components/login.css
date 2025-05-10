@@ -1,0 +1,43 @@
+/* login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f4f4f4;
+   /* Ensure no margins around the body */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;              /* Ensures form takes full available width */
+  max-width: 350px;         /* Optional: Set a max-width for form */
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.login-form input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
